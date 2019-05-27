@@ -3,7 +3,7 @@ Extremely Fast Hashtable implementation making use of the most advanced collisio
 
 - Linear probing: allows the algorithm to find closeby empty nodes to improve cache coherency.
 
-- Coalesced chaining: auxiliary data structures are formed by linking the table nodes to eachother rather than making use of external structures. This effectively eliminates much of the malloc and pointer overhead from traditional 
+- Coalesced chaining: auxiliary data structures are formed by linking the table nodes to eachother rather than making use of external structures. This effectively eliminates much of the malloc and pointer overhead from traditional chaining.
 
 - Binary Search Tree: nodes within a collision chain are linked to form a binary tree, allowing for faster resolution of collisions.
 
